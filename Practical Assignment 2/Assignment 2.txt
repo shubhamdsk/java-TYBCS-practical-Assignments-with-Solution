@@ -1,7 +1,8 @@
 How to Run the Programs.
 Set A
 
-a) Create an employee class(id,name,deptname,salary). Define a default and parameterized constructor. Use ‘this’ keyword to initialize instance variables. Keep a count of objects created. Create objects using parameterized constructor and display the object count after each object is created.(Use static member and method). Also display the contents of each object. (Use code employee.java)
+a) Create an employee class(id,name,deptname,salary). Define a default and parameterized constructor. Use ‘this’ keyword to initialize instance variables. Keep a count of objects created. Create objects using parameterized constructor and display the object count after each object is created.(Use static member and method). Also display the contents of each object. 
+(Use code employee.java).
 
 i]save program as employee.java
 ii]Run the code as
@@ -9,7 +10,8 @@ iii] javac employee.java
 iv] java employee
 v]Then insert the values as per asked in the program.
 
-b) Define Student class(roll_no, name, percentage) to create n objects of the Student class. Accept details from the user for each object. Define a static method “sortStudent” which sorts the array on the basis of percentage. (Use code studentsort.java)
+b) Define Student class(roll_no, name, percentage) to create n objects of the Student class. Accept details from the user for each object. Define a static method “sortStudent” which sorts the array on the basis of percentage. 
+(Use code studentsort.java).
 
 i] save program as studentsort.java
 ii]Run the code as
@@ -17,14 +19,16 @@ iii] javac studentsort.java
 iv] java studentsort
 v]Then insert the values as per asked in the program.
 
-c) Write a java program to accept 5 numbers using command line arguments sort and display them.(Use code sort.java)
+c) Write a java program to accept 5 numbers using command line arguments sort and display them.
+(Use code sort.java).
 
 i] save program as (Use code
 ii]Run the code as
 iii] javac sort.java 
 iv] java sort     // java sort 9 5 6 4 8 
 
-d) Write a java program that take input as a person name in the format of first, middle and last name and then print it in the form last, first and middle name, where in the middle name first character is capital letter. (Use code DisplayName.java)
+d) Write a java program that take input as a person name in the format of first, middle and last name and then print it in the form last, first and middle name, where in the middle name first character is capital letter. 
+(Use code DisplayName.java).
 
 i] save program as DisplayName.java
 ii]Run the code as
@@ -34,11 +38,14 @@ v]Then insert the values as per asked in the program.
 
 
 Set B
-a) Write a Java program to create a Package “SY” which has a class SYMarks (members – ComputerTotal, MathsTotal, and ElectronicsTotal). Create another package TY which has a class TYMarks (members – Theory, Practicals). Create n objects of Student class (having rollNumber, name, SYMarks and TYMarks). Add the marks of SY and TY computer subjects and calculate the Grade (‘A’ for >= 70, ‘B’ for >= 60 ‘C’ for >= 50 , Pass Class for > =40 else ‘FAIL’) and display the result of the student in proper format. (Use code Student.java)
+a) Write a Java program to create a Package “SY” which has a class SYMarks (members – ComputerTotal, MathsTotal, and ElectronicsTotal). Create another package TY which has a class TYMarks (members – Theory, Practicals). Create n objects of Student class (having rollNumber, name, SYMarks and TYMarks). Add the marks of SY and TY computer subjects and calculate the Grade (‘A’ for >= 70, ‘B’ for >= 60 ‘C’ for >= 50 , Pass Class for > =40 else ‘FAIL’) and display the result of the student in proper format. 
+(Use code Student.java).
 
-1]First of all u have to create a package as name SY (i.e you have to create one folder named as SY) in this folder save the program SYMarks.java and then compile this program in same directory as javac SYMarks.java and then java SYMarks.(Use program SYMarks.java)
+1]First of all u have to create a package as name SY (i.e you have to create one folder named as SY) in this folder save the program SYMarks.java and then compile this program in same directory as javac SYMarks.java and then java SYMarks.
+(Use program SYMarks.java).
 
-2]And then you have to create second  package as name TY (i.e you have to create one folder named as TY) in this folder save the program TYMarks.java and then compile this program in same directory as javac TYMarks.java and then java TYMarks.(Use program TYMarks.java).
+2]And then you have to create second  package as name TY (i.e you have to create one folder named as TY) in this folder save the program TYMarks.java and then compile this program in same directory as javac TYMarks.java and then java TYMarks.
+(Use program TYMarks.java).
 
 3] After creating this packages u have to save the main student program as
 i]   Student.java
@@ -50,7 +57,8 @@ v]Then insert the values as per asked in the program.
 {Note : Your Student.java program and SY Package & TY Package folders are in Same folder }.
 
 
-b) Define a class CricketPlayer (name,no_of_innings,no_of_times_notout, totatruns, bat_avg). Create an array of n player objects .Calculate the batting average for each player using static method avg(). Define a static sort method which sorts the array on the basis of average. Display the player details in sorted order. (Use code CricketPlayer.java)
+b) Define a class CricketPlayer (name,no_of_innings,no_of_times_notout, totatruns, bat_avg). Create an array of n player objects .Calculate the batting average for each player using static method avg(). Define a static sort method which sorts the array on the basis of average. Display the player details in sorted order. 
+(Use code CricketPlayer.java).
 
 i] save program as CricketPlayer.java
 ii]Run the code as
@@ -60,7 +68,7 @@ v]Then insert the values as per asked in the program.
 
 Set C
 a) Write a package for String operation which has two classes Con and Comp. Con class has to concatenates two strings and comp class compares two strings. Also display proper message on execution.
-(Use code Demo.java)
+(Use code Demo.java).
 
 i]Create a package as ConComp  (i.e you have to create one folder named as ConComp) in this folder save the program con1.java and then compile this program in same directory as javac con1.java and then java con1 (Use program con1.java).
 
