@@ -22,7 +22,7 @@ v]Then insert the values as per asked in the program.
 c) Write a java program to accept 5 numbers using command line arguments sort and display them.
 (Use code sort.java).
 
-i] save program as (Use code
+i] save program as sort.java
 ii]Run the code as
 iii] javac sort.java 
 iv] java sort     // java sort 9 5 6 4 8 
