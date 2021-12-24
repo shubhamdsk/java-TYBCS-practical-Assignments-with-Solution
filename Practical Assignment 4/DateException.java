@@ -87,6 +87,7 @@ public class DateException {
 PS C:\Users\shubham Deshmukh\Desktop\College\Java\Practical Assignments\Practical Assignment 4> javac DateException.java
 PS C:\Users\shubham Deshmukh\Desktop\College\Java\Practical Assignments\Practical Assignment 4> java DateException      
 Enter Date  :  dd mm yyyy 
+17 9 2000
 
                 Date
 
@@ -97,6 +98,7 @@ Enter Date  :  dd mm yyyy
 PS C:\Users\shubham Deshmukh\Desktop\College\Java\Practical Assignments\Practical Assignment 4> java DateException
 Enter Date  :  dd mm yyyy
 31 06 2021
+Invalid date....
 Try Again
 
 PS C:\Users\shubham Deshmukh\Desktop\College\Java\Practical Assignments\Practical Assignment 4> java DateException
