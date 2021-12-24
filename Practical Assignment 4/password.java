@@ -64,17 +64,29 @@ public class password {
             System.out.println(e);
         }
     }
-}
-/*
+}/*
+O/P:
 PS C:\Users\shubham Deshmukh\Desktop\College\Java\Practical Assignments\Practical Assignment 4> javac password.java
-PS C:\Users\shubham Deshmukh\Desktop\College\Java\Practical Assignments\Practical Assignment 4> java password dsk dsk@123
+PS C:\Users\shubham Deshmukh\Desktop\College\Java\Practical Assignments\Practical Assignment 4> java password dsk dsk@123        
 Username Matched..!
 Password Matched..!
-PS C:\Users\shubham Deshmukh\Desktop\College\Java\Practical Assignments\Practical Assignment 4> java password dskshubham dsk@1234
+
+PS C:\Users\shubham Deshmukh\Desktop\College\Java\Practical Assignments\Practical Assignment 4> java password dskShubham dsk@123 
+Invalid Username....
+Try Again
+
+Password Matched..!
+
+PS C:\Users\shubham Deshmukh\Desktop\College\Java\Practical Assignments\Practical Assignment 4> java password dskshubham dsk@123 
+Invalid Username....
+Try Again
+
+Password Matched..!
+
+PS C:\Users\shubham Deshmukh\Desktop\College\Java\Practical Assignments\Practical Assignment 4> java password dskShubham dsk@1234
 Invalid Username....
 Try Again
 
 Invalid Pasword....
 Try Again
 */
-/*
