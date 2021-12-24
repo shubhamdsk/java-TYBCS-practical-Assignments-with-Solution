@@ -45,3 +45,52 @@ public class EmployeeException {
 
     }
 }
+
+/*O/P:
+ PS C:\Users\shubham Deshmukh\Desktop\College\Java\Practical Assignments\Practical Assignment 4> javac EmployeeException.java     
+PS C:\Users\shubham Deshmukh\Desktop\College\Java\Practical Assignments\Practical Assignment 4> java EmployeeException      
+shubham
+
+Employee Name:-shubham
+
+PS C:\Users\shubham Deshmukh\Desktop\College\Java\Practical Assignments\Practical Assignment 4> java EmployeeException
+Enter Name :
+9dsk
+Invalid Name....
+Name should contain only characters
+Thank You :)
+
+PS C:\Users\shubham Deshmukh\Desktop\College\Java\Practical Assignments\Practical Assignment 4> java EmployeeException
+Enter Name :
+dsh/
+Invalid Name....
+Name should contain only characters
+Thank You :)
+
+PS C:\Users\shubham Deshmukh\Desktop\College\Java\Practical Assignments\Practical Assignment 4> java EmployeeException
+Enter Name :
+dsk'shubham'
+Invalid Name....
+Name should contain only characters
+Thank You :)
+
+PS C:\Users\shubham Deshmukh\Desktop\College\Java\Practical Assignments\Practical Assignment 4> java EmployeeException
+Enter Name :
+"Shubham"
+
+Invalid Name....
+Name should contain only characters
+Thank You :)
+
+PS C:\Users\shubham Deshmukh\Desktop\College\Java\Practical Assignments\Practical Assignment 4> java EmployeeException
+Enter Name :
+SHUBHAM
+
+Employee Name:-SHUBHAM
+
+PS C:\Users\shubham Deshmukh\Desktop\College\Java\Practical Assignments\Practical Assignment 4> java EmployeeException
+Enter Name :
+SHUbham
+
+Employee Name:-SHUbham
+ */
