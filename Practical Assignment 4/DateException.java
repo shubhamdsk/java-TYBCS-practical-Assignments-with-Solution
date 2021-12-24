@@ -82,3 +82,38 @@ public class DateException {
         }
     }
 }
+
+/*O/P:
+PS C:\Users\shubham Deshmukh\Desktop\College\Java\Practical Assignments\Practical Assignment 4> javac DateException.java
+PS C:\Users\shubham Deshmukh\Desktop\College\Java\Practical Assignments\Practical Assignment 4> java DateException      
+Enter Date  :  dd mm yyyy 
+
+                Date
+
+        ----------------------
+        Day     Month   Year
+        17      9       2000
+        ----------------------
+PS C:\Users\shubham Deshmukh\Desktop\College\Java\Practical Assignments\Practical Assignment 4> java DateException
+Enter Date  :  dd mm yyyy
+31 06 2021
+Try Again
+
+PS C:\Users\shubham Deshmukh\Desktop\College\Java\Practical Assignments\Practical Assignment 4> java DateException
+Enter Date  :  dd mm yyyy
+29 2 2021
+Invalid date....
+Try Again
+
+PS C:\Users\shubham Deshmukh\Desktop\College\Java\Practical Assignments\Practical Assignment 4> java DateException
+Enter Date  :  dd mm yyyy 
+29 2 2020
+
+                Date
+
+        ----------------------
+        Day     Month   Year
+        ----------------------
+        29      2       2020
+        ----------------------
+*/
