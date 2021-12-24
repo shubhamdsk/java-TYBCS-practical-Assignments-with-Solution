@@ -65,3 +65,32 @@ public class Hospital {
 
     }
 }
+/*O/P:
+PS C:\Users\shubham Deshmukh\Desktop\College\Java\Practical Assignments\Practical Assignment 4> javac Hospital.java
+PS C:\Users\shubham Deshmukh\Desktop\College\Java\Practical Assignments\Practical Assignment 4> java Hospital      
+Enter Patient Name: 
+ABC
+Enter Patient Age: 
+67
+Enter Oxygen Level:
+98
+Enter HRTC Report:
+8
+
+                Patient Details
+
+        Patient Name    Patient Age     Oxygen_level    HRTC_Report
+        ABC             67              98              8
+
+PS C:\Users\shubham Deshmukh\Desktop\College\Java\Practical Assignments\Practical Assignment 4> java Hospital
+Enter Patient Name: 
+XYZ
+Enter Patient Age:
+89
+Enter Oxygen Level:
+78
+Enter HRTC Report:
+15
+I'm sorry ! Your'e Covid Positive(+)
+ Need to Hospitalized
+*/
