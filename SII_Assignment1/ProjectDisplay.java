@@ -1,4 +1,9 @@
-// package database_Programs;
+/**
+ * A]. Create a PROJECT table with fields project_id, Project_name,Project_description,P_status, etc. Display all the details of the Project in tabular format on the screen.(Using Swing).
+ * 
+ * @author shubham Deshmukh
+ *
+ */
 
 import java.sql.*;
 import java.awt.*;
