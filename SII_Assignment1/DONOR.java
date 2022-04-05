@@ -1,5 +1,5 @@
 /**
- * C].Write a program to display information about all coumns in the DONOR table using 
+ * C].Write a program to display information about all coumns in the DONOR table using ResultSetMetaData.
 /**
  * @author shubham Deshmukh
  *
