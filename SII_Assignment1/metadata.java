@@ -13,7 +13,9 @@ public class metadata {
 			Class.forName("org.postgresql.Driver");
 
 			// Establish Connection
+		    // Use database name & password according to your "dbname","pass"
 			Connection conn = DriverManager.getConnection("jdbc:postgresql://localhost/postgres", "postgres", "dsk");
+
 			DatabaseMetaData dbmd = conn.getMetaData();
 			System.out.println("\t-----------------------------------------------------------------------");
 			System.out.println("\t\tDriver Name : " + dbmd.getDriverName());

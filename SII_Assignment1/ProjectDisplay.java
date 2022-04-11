@@ -5,6 +5,8 @@
  * a) Create a PROJECT table with fields project_id, Project_name, Project_description, Project_Status. etc. Insert values in the table. Display all the details of the PROJECT table in a tabular format on the screen.(using swing).
 
  *All functions are covered such as insert,update,display,delete and exit.
+ *
+ *for database material use here project.pgsql file
  */
 
 import java.sql.*;

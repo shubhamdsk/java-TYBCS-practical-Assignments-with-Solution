@@ -1,8 +1,11 @@
+
 /**
  * @author:Shubham deshmukh
  * 
  *  Write Java Program to Insert,Update, Delete & Display the Records of Student. 
  * 
+ * 
+ *for database material use here student.pgsql file
  */
 import java.sql.*;
 import java.util.*;

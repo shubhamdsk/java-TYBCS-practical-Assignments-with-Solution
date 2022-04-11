@@ -3,6 +3,9 @@
  * @author:Shubham deshmukh
  * 
  * SET B) b. Design a following Registration form and raise an appropriate exception if invalid information is entered like Birth Year '0000'
+ * 
+ *  *
+ *for database material use here cowin.pgsql file
  */
 
 import javax.swing.*;
@@ -173,6 +176,7 @@ public class Cowin extends JFrame implements ActionListener {
 						Class.forName("org.postgresql.Driver");
 
 						// Establish Connection
+					   // Use database name & password according to your "dbname","pass"
 						conn = DriverManager.getConnection("jdbc:postgresql://localhost/postgres", "postgres", "dsk");
 						pstmt = conn.prepareStatement("insert into cowin values(?,?,?,?,?,?,?)");
 

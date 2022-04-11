@@ -3,6 +3,9 @@
  * @author shubham Deshmukh
  * 
  * C].Write a program to display information about all coumns in the DONOR table using 
+ * 
+ * 
+ *for database material use here donor.pgsql file
 **/
 
 import java.sql.*;
