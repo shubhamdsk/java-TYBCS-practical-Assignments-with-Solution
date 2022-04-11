@@ -21,6 +21,10 @@ public class A1 {
             al.add(c);
         }
         System.out.println("Cities :" + al);
+        
+        System.out.println("ArrayList after removing the elements  :");
+        al.clear();
+        
         sc.close();
     }
 }
