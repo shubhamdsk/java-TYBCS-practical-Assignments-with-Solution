@@ -3,7 +3,6 @@
  * 
  * b) Write a java program to read ‘n’ names of your friends, store it into linked list, also display contents of the same.
  */
-
 import java.util.*;
 public class A2 {
     public static void main(String[] args) {
@@ -20,7 +19,7 @@ public class A2 {
             String fl = sc.nextLine();
             ll.add(fl);
         }
-        System.out.println("Cities :" + ll);
+        System.out.println("Friends :" + ll);
         sc.close();
     }
 }
