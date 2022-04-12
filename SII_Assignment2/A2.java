@@ -8,7 +8,7 @@ public class A2 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
-        LinkedList ll = new LinkedList();
+        LinkedList ll = new LinkedList<>();
 
         System.out.println("Enter How many Friends :");
         int n = sc.nextInt();

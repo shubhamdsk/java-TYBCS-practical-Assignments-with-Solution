@@ -3,13 +3,13 @@
  * 
  * c) Write a program to create a new tree set, add some colors (string) and print out the tree set.
  */
-
-import java.util.*;
+import java.util.Scanner;
+import java.util.TreeSet;
 public class A3 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
-        TreeSet ts = new TreeSet();
+        TreeSet ts = new TreeSet<>();
 
         System.out.println("Enter How many Colours :");
         int n = sc.nextInt();

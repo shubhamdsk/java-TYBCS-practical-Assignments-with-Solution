@@ -9,7 +9,7 @@ public class A1 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
-        ArrayList al = new ArrayList();
+        ArrayList al = new ArrayList<>();
 
         System.out.println("Enter How many cities :");
         int n = sc.nextInt();
