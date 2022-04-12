@@ -6,7 +6,7 @@
 
 import java.sql.*;
 
-public class metadata {
+public class Metadata {
 	public static void main(String[] args) {
 		try {
 			// load a driver
