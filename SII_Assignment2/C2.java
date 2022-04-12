@@ -12,7 +12,7 @@ import java.util.Scanner;
 public class C2 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        LinkedList ll = new LinkedList<>();
+        LinkedList<Object> ll = new LinkedList<>();
         ll.add(1);
         ll.add(2);
         ll.add(3);
