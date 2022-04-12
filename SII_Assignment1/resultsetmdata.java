@@ -1,5 +1,5 @@
 import java.sql.*;
-public class resultsetmdata{
+public class Resultsetmdata{
 public static void main(String[] args){
 		try{
 						//load a driver
