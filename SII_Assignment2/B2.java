@@ -1,3 +1,8 @@
+/**
+ * @author:Shubham Deshmukh
+ * 
+ * b) Write a program to sort HashMap by keys and display the details before sorting and after sorting.
+ */
 import java.util.HashMap;
 import java.util.TreeMap;
 

@@ -1,6 +1,6 @@
 /*
 Set C
-a) Write a menu driven program to perform the following operations on a set of integers as shown in the following figure. A load operation should generate 10 random integers (2 digit) and display the number on screen. The save operation should save the number to a file “number.txt”. The short menu provides various operations and the result is displayed on the screen.
+a) Write a menu driven program to perform the following operations on a set of integers as shown in the following figure. A load operation should generate 10 random integers (2 digit) and display the number on screen. The save operation should save the number to a file "number.txt". The short menu provides various operations and the result is displayed on the screen.
 */
 import java.io.*;
 import java.util.*;

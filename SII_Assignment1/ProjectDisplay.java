@@ -15,7 +15,7 @@ import java.awt.event.*;
 import javax.swing.*;
 import javax.swing.table.*;
 
-public class ProjectDisplay extends JFrame implements ActionListener {
+class ProjectDisplay extends JFrame implements ActionListener {
 
     Connection con;
     ResultSet rs;
