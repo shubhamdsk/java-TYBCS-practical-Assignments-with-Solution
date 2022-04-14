@@ -16,11 +16,11 @@ public class C3 {
     public static void main(String arg[]) {
         Scanner sc = new Scanner(System.in);
         try {
-            File f = new File("C3.txt");
+            File f = new File(arg[0]);
             BufferedReader br = null;
 
             br = new BufferedReader(new FileReader(f));
-            FileOutputStream fout = new FileOutputStream("C3.txt");
+            FileOutputStream fout = new FileOutputStream(arg[0]);
             int ch;
             ArrayList<Object> al = new ArrayList<>();
 
