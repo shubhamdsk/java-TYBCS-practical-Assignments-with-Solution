@@ -15,6 +15,7 @@ public class C3 {
     public static void main(String arg[]) {
         Scanner sc = new Scanner(System.in);
         try {
+            // Here, we have used command line argument , so at the time of run the code use command java C3 C3.txt
             File f = new File(arg[0]);
             BufferedReader br = null;
 
