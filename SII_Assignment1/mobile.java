@@ -3,12 +3,15 @@
  * @author:Shubham deshmukh
  * 
  *   a) Create a MOBILE table with fields Model_Number, Model_Name, Model_Color,
-        Sim_Type, ProcessorType. Insert values in the table. Write a menu driven program to pass the
-        input using Command line argument to perform the following operations on MOBILE
-        table. 1. Insert 2. Modify 3. Delete 4. Search 5. View All 6. Exit
+Sim_Type, ProcessorType. Insert values in the table. Write a menu driven program to pass the
+input using Command line argument to perform the following operations on MOBILE
+table. 1. Insert 2. Modify 3. Delete 4. Search 5. View All 6. Exit
+
+ *All functions are covered such as insert,update,display,delete and exit.
  *
- *for database material use here mobile.pgsql file
+ *for database material use here project.pgsql file
  */
+
 
 import java.sql.*;
 import java.util.*;
@@ -27,9 +30,9 @@ public class mobile {
             conn = DriverManager.getConnection("jdbc:postgresql://localhost/postgres", "postgres", "dsk");
 
             Scanner sc = new Scanner(System.in);
-            System.out.println("\nMOBILE\n");
+            System.out.println("\n\tMobile Information\n");
             do {
-                System.out.println("\n\n1.Insert \n2.Modify\n3.Delete\n4.Search \n5.View All\n6.Exit");
+                System.out.println("\n\t1.Insert \n\t2.Modify\n\t3.Delete\n\t4.Search \n\t5.View All\n\t6.Exit\n");
                 System.out.println("Enter Your Choice: ");
                 int ch = sc.nextInt();
                 switch (ch) {
@@ -110,22 +113,25 @@ public class mobile {
                         pstmt.setInt(1, m);
 
                         rs = pstmt.executeQuery();
-
+                        System.out.println("\n------------------------------------------------------------------------------------------------------------------");
                         while (rs.next()) {
                             System.out.println(rs.getInt(1) + "\t" + rs.getString(2) + "\t" + rs.getString(3) + "\t"
                                     + rs.getString(4) + "\t" + rs.getInt(5) + "\t" + rs.getInt(6) + "\t" + rs.getInt(7)
                                     + "\t" + rs.getString(8));
                         }
+                        System.out.println("------------------------------------------------------------------------------------------------------------------");
                         break;
 
                     case 5:
                         stmt = conn.createStatement();
                         rs = stmt.executeQuery("select * from mobile");
+            			System.out.println("\n------------------------------------------------------------------------------------------------------------------");
                         while (rs.next()) {
                             System.out.println(rs.getInt(1) + "\t" + rs.getString(2) + "\t" + rs.getString(3) + "\t"
                                     + rs.getString(4) + "\t" + rs.getInt(5) + "\t" + rs.getInt(6) + "\t" + rs.getInt(7)
                                     + "\t" + rs.getString(8));
                         }
+            			System.out.println("------------------------------------------------------------------------------------------------------------------");
 
                         break;
 
