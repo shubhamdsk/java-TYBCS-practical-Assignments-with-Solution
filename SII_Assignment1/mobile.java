@@ -99,7 +99,6 @@ public class mobile {
                         System.out.println("Enter Model No for Delete Record: ");
                         int model = sc.nextInt();
                         pstmt.setInt(1, model);
-                        pstmt.executeUpdate();
 
                         int result3 = pstmt.executeUpdate();
                         System.out.println(result3 + " Record Deleted\n");
