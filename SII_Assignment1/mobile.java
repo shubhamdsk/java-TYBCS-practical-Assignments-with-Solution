@@ -9,7 +9,7 @@ table. 1. Insert 2. Modify 3. Delete 4. Search 5. View All 6. Exit
 
  *All functions are covered such as insert,update,display,delete and exit.
  *
- *for database material use here project.pgsql file
+ *for database material use here mobile.pgsql file
  */
 
 
