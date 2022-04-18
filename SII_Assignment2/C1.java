@@ -12,7 +12,7 @@ import java.util.*;
 
 public class C1 extends JFrame implements ActionListener {
     JTextField txtname, txtstd;
-    JButton btnadd, btnupdate, btnsearch;
+    JButton btnadd, btndelete, btnsearch;
     JPanel p1;
     JFrame j1;
     Hashtable<String, String> table = new Hashtable<>();
@@ -44,11 +44,11 @@ public class C1 extends JFrame implements ActionListener {
         p1.add(btnadd);
         btnadd.addActionListener(this);
 
-        btnupdate = new JButton("Update");
+        btndelete = new JButton("Update");
         p1.add(btnupdate);
         btnupdate.addActionListener(this);
 
-        btnsearch = new JButton("Search");
+        btnsearch = new JButton("Delete");
         p1.add(btnsearch);
         btnsearch.addActionListener(this);
 
@@ -74,14 +74,12 @@ public class C1 extends JFrame implements ActionListener {
             txtname.setText("");
             txtstd.setText("");
         }
-        if (ae.getSource() == btnupdate) {
+        if (ae.getSource() == btndelete) {
 
-            table.put(name, std);
-            JOptionPane.showMessageDialog(null, "Succesfully Updated City STD Code", name,
-                    JOptionPane.INFORMATION_MESSAGE);
+            JOptionPane.showMessageDialog(null, "Enter City");
+             table.remove(S1);
+                    JOptionPane.showMessageDialog(null, "Deleted");
 
-            txtname.setText("");
-            txtstd.setText("");
         }
 
         if (ae.getSource() == btnsearch) {
