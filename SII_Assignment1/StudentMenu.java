@@ -46,7 +46,7 @@ public class StudentMenu {
 
                         // Execute Query
                         int result = pstmt.executeUpdate();
-                        System.out.println(result + " Record Updated\n\n");
+                        System.out.println(result + " Record Inserted\n\n");
                         break;
 
                     case 2:
