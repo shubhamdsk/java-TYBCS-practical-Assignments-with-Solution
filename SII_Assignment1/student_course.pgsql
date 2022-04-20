@@ -9,12 +9,12 @@ insert into student1 values(77,'Swayam','TYBCS');
 select * from student1;
 
 create table course(c_id int ,c_name char(30) primary key, c_inst char(30));
-insert into course values(1,'java','gite bai');
-insert into course values(2,'ruby','kawde sir');
-insert into course values(3,'python','thorat bai');
-insert into course values(4,'c','sharma bai');
-insert into course values(5,'php','kawde sir');
-insert into course values(6,'mysql','vikhe bai');
+insert into course values(1,'java','Gite Madam');
+insert into course values(2,'ruby','Kawde sir');
+insert into course values(3,'python','Thorat Madam');
+insert into course values(4,'c','Sharma Madam');
+insert into course values(5,'php','Kawde sir');
+insert into course values(6,'mysql','Vikhe Madam');
 
 select * from course;
 
