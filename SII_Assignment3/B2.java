@@ -1,71 +1,72 @@
 /**
- * @author : Shubham Deshmukh
  * 
- * Write a program for a simple search engine. Accept a string to be searched. Search for the string in all text files in the current folder. Use a separate thread for each file. The result should display the filename, line number where the string is found.
+ * @author : shubham Deshmukh.
  * 
- * i have use a.txt and b.txt use can use any text file according to you, but all the text file must be in the same folder. Thank you
+ *  Write a program for a simple search engine. Accept a string to be searched. Search for the string in all text files in the current folder. Use a separate thread for each file. The result should display the filename, line number where the string is found.
+ * 
+ * for executing this program
+ * 1.you have create one folder and give name according to you (imy folder name is thread)
+ * 2. In this particular folder you have to create some text files and put some text as well (my text files are a.txt & b.txt.)
+ * 
  */
-import java.io.*;
+import java.io.BufferedReader;
+import java.io.File;
+import java.io.FileReader;
+import java.util.Scanner;
 
-public class B2 extends Thread {
-    File f1;
-    String fname;
-    static String str;
-    String line;
-    LineNumberReader reader = null;
+class Mythread extends Thread {
+    String str;
+    String filename;
 
-    B2(String fname) {
-        this.fname = fname;
-        f1 = new File(fname);
+    Mythread(String str, String filename) {
+        this.str = str;
+        this.filename = filename;
     }
 
     public void run() {
         try {
-            FileReader fr = new FileReader(f1);
-            reader = new LineNumberReader(fr);
-            while ((line = reader.readLine()) != null) {
-                if (line.indexOf(str) != -1) {
-                    System.out.println("String found in " + fname + " at " + reader.getLineNumber() + " line");
-                    interrupt();
+            int flag = 0;
+            File f = new File(filename);
+            BufferedReader br = new BufferedReader(new FileReader(f));
+            String line = "";
+            while ((line = br.readLine()) != null) {
+                if (line.contains(str) == true) {
+                    flag = 1;
+                    break;
                 }
             }
-        } catch (IOException e) {
-            System.out.println(e);
+            if (flag == 1) {
+                System.out.println("String found in folder/file :" + filename);
+            } else {
+                System.out.println("String not found in folder/file :" + filename);
+
+            }
+            br.close();
+        } catch (Exception e) {
+            e.printStackTrace();
         }
     }
+}
 
+public class B2 {
     public static void main(String[] args) {
-        try {
-            Thread t[] = new Thread[20];
-            BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-            System.out.println("Enter String to Search :");
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Enter Search string :");
+        String str = sc.nextLine();
 
-            str = br.readLine();
-            FilenameFilter filter = new FilenameFilter() {
-                public boolean accept(File file, String name) {
-                    if (name.endsWith(".txt")) {
-                        return true;
-                    } else {
-                        return false;
-                    }
-                }
-            };
-
-            File dir = new File(".");
-            File[] files = dir.listFiles(filter);
-            if (files.length == 0) {
-                System.out.println("No files available with this extension");
-            } else {
-                for (int i = 0; i < files.length; i++) {
-                    for (File aFile : files) {
-                        t[i] = new B2(aFile.getName());
-                        t[i].start();
-                    }
+        //Your folder name 
+        String dirname = "thread";
+        File d = new File(dirname);
+        if (d.isDirectory()) {
+            String s[] = d.list();
+            for (int i = 0; i < s.length; i++) {
+                File f = new File(dirname + "/" + s[i]);
+                if (f.isFile() && s[i].endsWith(".txt")) {
+                    Mythread t = new Mythread(str, dirname + "/" + s[i]);
+                    t.start();
                 }
             }
-        } catch (Exception e) {
-            System.out.println(e);
         }
-
+        sc.close();
     }
 }
