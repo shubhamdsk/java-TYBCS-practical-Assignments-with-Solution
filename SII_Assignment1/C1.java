@@ -24,9 +24,7 @@ public class C1 extends JFrame implements ActionListener {
         setSize(800, 700);
         setTitle("Java Project Program");
 
-        Toolkit toolkit = getToolkit();
-        Dimension size = toolkit.getScreenSize();
-        setLocation(size.width / 2 - getWidth() / 2, size.height / 2 - getHeight() / 2);
+        setLocation(400, 150);
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 
         red = new JLabel("STOP");
