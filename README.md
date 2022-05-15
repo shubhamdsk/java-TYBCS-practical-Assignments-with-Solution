@@ -14,6 +14,20 @@ A2.Write a program in which thread sleep for 6 sec in the loop in reverse order 
 A3.Write a program to solve producer consumer problem in which a producer produces a value and consumer consume the value before producer generate the next value. (Hint: use thread synchronization)
 
 
+Set B
+B1.
+
+B2. Write a program for a simple search engine. Accept a string to be searched. Search for the string in all text files in the current folder. Use a separate thread for each file. The result should display the filename, line number where the string is found.
+  for executing this program
+  1.you have create one folder and give name according to you (folder name is thread)
+  2. In this particular folder you have to create some text files and put some text as well (my text files are a.txt & b.txt.)
+
+B3.
+
+
+Set C
+C1. Write a program that simulates a traffic light. The program lets the user select one of three lights: red, yellow, or green with radio buttons. On selecting a button, an appropriate message with “stop” or “ready” or “go”should appear above the buttons in a selected color. Initially there is no message shown.
+
 
 # Assignment 2
 Set A
