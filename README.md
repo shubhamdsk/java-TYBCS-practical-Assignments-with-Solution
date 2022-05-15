@@ -1,7 +1,7 @@
 # Java-Practical-Assignments with Solution
 Assignment Related Programs are Here.
 
-# Assignment 1
+# SII_Assignment1
 Set A
 
 A1. Program to define a thread for printing text on output screen for ‘n’ number of times. Create 3 threads and run them. Pass the text ‘n’ parameters to the thread constructor. Example:
@@ -29,7 +29,7 @@ Set C
 C1. Write a program that simulates a traffic light. The program lets the user select one of three lights: red, yellow, or green with radio buttons. On selecting a button, an appropriate message with “stop” or “ready” or “go”should appear above the buttons in a selected color. Initially there is no message shown.
 
 
-# Assignment 2
+# SII_Assignment2
 Set A
 
 A1. Write a java program to accept names of ‘n’ cities, insert same into array list collection and display the contents of same array list, also remove all these elements.
