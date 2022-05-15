@@ -73,3 +73,41 @@ C3. Read a text file, specified by the first command line argument, into a list.
 
 
 # SII_Assignment3
+Set A
+
+A1.(StudentprojectDisplay)-Create a PROJECT table with fields project_id, Project_name, Project_description, Project_Status. etc. Insert values in the table. Display all the details of the PROJECT table in a tabular format on the screen.(using swing).
+--for database material use here project.pgsql file.
+
+A2.(Metadata)- Write a program to display information about the database and list all the tables in the database. (Use DatabaseMetaData).
+
+A3.(DONOR) - Write a program to display information about all columns in the DONAR table using ResultSetMetaData.
+--for database material use here donor.pgsql file.
+
+Set B
+
+B1.(mobile) - Create a MOBILE table with fields Model_Number, Model_Name, Model_Color, Sim_Type, NetworkType, BatteryCapacity, InternalStorage, RAM and ProcessorType. Insert values in the table. Write a menu driven program to pass the input using Command line argument to perform the following operations on MOBILE table.
+1. Insert 2. Modify 3. Delete 4. Search 5. View All 6. Exit.
+--for database material use here mobile.pgsql file
+
+B2.(Cowin) - Design a following Registration form and raise an appropriate exception if invalid information is entered like Birth Year ‘0000’.
+--for database material use here cowin.pgsql file
+
+Set C
+
+C1.(Student_Course) - Create tables : Course (courseid, coursename, courseinstructor) and Student
+(studentid, studentname, studentclass). Course and Student have a many to many
+relationship. Create a GUI based system for performing the following operations on
+the tables:
+Course : Add Course, View All students of a specific course
+Student : Add Student, Delete Student, View All students, Search student.
+--for database material use here student_course.pgsql file.
+
+C2.(Employee) - Create the following tables and relations, for an INVESTMENT firm EMP(empid
+,empname, empaddress, empcontact, empage) INVESTOR(invno, invname , invdate,
+invamt) An employee may invest in one or more investments, hence he can be an
+investor. But an investor need not be an employee of the firm. Insert sufficient
+number of records in the relations / tables with appropriate values.
+i. Display the List the distinct names of person who are either employees, or
+investors or both.
+ii. List the names of employees who are not investors
+--for database material use here employee.pgsql file
