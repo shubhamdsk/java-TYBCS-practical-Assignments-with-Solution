@@ -1,5 +1,20 @@
 # Java-Practical-Assignments with Solution
 Assignment Related Programs are Here.
+
+# Assignment 1
+Set A
+
+A1. Program to define a thread for printing text on output screen for ‘n’ number of times. Create 3 threads and run them. Pass the text ‘n’ parameters to the thread constructor. Example:
+i. First thread prints “COVID19” 10 times.
+ii. Second thread prints “LOCKDOWN2020” 20 times
+iii. Third thread prints “VACCINATED2021” 30 times
+
+A2.Write a program in which thread sleep for 6 sec in the loop in reverse order from 100 to 1 and change the name of 	thread.
+
+A3.Write a program to solve producer consumer problem in which a producer produces a value and consumer consume the value before producer generate the next value. (Hint: use thread synchronization)
+
+
+
 # Assignment 2
 Set A
 
