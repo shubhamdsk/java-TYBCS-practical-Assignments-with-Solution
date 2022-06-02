@@ -161,7 +161,7 @@ public class Student_Course extends JFrame implements ActionListener {
 
                 pstmt.setString(1, s1);
 
-                int result = pstmt.executeUpdate();
+                pstmt.executeUpdate();
                 JOptionPane.showMessageDialog(null, "Record deleted");
 
             }
