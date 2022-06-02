@@ -13,8 +13,8 @@
             <% 
             try{
             int a=Integer.parseInt(request.getParameter("No1"));
-            int a=Integer.parseInt(request.getParameter("No2"));
-            int result=a + a;
+            int b=Integer.parseInt(request.getParameter("No2"));
+            int result=a + b;
              out.print("Addition of a and b :"+result); 
             }catch(Exception e)
             {
