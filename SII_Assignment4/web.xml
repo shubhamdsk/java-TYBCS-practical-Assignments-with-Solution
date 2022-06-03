@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<web-app>
+
+	<servlet>
+		<servlet-name>Hello</servlet-name>
+		<servlet-class>Hello</servlet-class>
+	</servlet>
+
+	<servlet>
+		<servlet-name>CustomerJava</servlet-name>
+		<servlet-class>CustomerJava</servlet-class>
+	</servlet>
+
+<servlet>
+		<servlet-name>customer</servlet-name>
+		<servlet-class>customer</servlet-class>
+	</servlet>
+	
+	<servlet>
+		<servlet-name>AddCookie</servlet-name>
+		<servlet-class>AddCookie</servlet-class>
+	</servlet>
+	
+	
+	
+	
+	<servlet-mapping>
+			<servlet-name>Hello</servlet-name>
+			<url-pattern>/Hello</url-pattern>
+	</servlet-mapping>
+	
+	<servlet-mapping>
+			<servlet-name>CustomerJava</servlet-name>
+			<url-pattern>/CustomerJava</url-pattern>
+	</servlet-mapping>
+	
+	<servlet-mapping>
+			<servlet-name>customer</servlet-name>
+			<url-pattern>/customer</url-pattern>
+	</servlet-mapping>
+	
+		<servlet-mapping>
+			<servlet-name>AddCookie</servlet-name>
+			<url-pattern>/AddCookie</url-pattern>
+	</servlet-mapping>
+	
+		
+	
+</web-app>
