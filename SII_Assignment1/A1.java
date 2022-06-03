@@ -6,7 +6,7 @@ public class A1 extends Thread {
         this.str = str;
         this.n = n;
     }
-    @Override
+    
     public void run() {
         try {
             for (int i = 0; i < n; i++) {
