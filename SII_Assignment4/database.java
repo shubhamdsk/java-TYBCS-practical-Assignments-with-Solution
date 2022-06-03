@@ -17,7 +17,7 @@ public class database extends HttpServlet {
             // load driver
             Class.forName("org.postgresql.Driver");
             // establish a conn
-            con = DriverManager.getConnection("jdbc:postgresql://localhost/bcs", "postgres", "");
+            con = DriverManager.getConnection("jdbc:postgresql://localhost/bcs","postgres", "");
 
             st = con.createStatement();
             rs = st.executeQuery("select * from student ");
