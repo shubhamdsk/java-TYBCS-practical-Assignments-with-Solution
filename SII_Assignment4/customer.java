@@ -4,7 +4,7 @@ import javax.servlet.http.*;
 import java.sql.*;
 import java.util.*;
 
-public class B1 extends HttpServlet {
+public class customer extends HttpServlet {
 
     public void doGet(HttpServletRequest request, HttpServletResponse responce) throws IOException, ServletException {
 
